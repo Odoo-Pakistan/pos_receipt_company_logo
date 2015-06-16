@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-extend="PosTicket">
+        <t t-jquery="div.pos-sale-ticket div:first" t-operation="after">
+            <div id="company-logo">
+                <img t-att-src="'data:image/png;base64,'+ widget.pos.company.logo"/>
+            </div>
+        </t>
+    </t>
+</templates>

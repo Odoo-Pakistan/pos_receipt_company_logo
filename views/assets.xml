@@ -1,0 +1,15 @@
+<openerp>
+    <data>
+        <template id="index" name="pos_receipt_company_logo index" inherit_id="point_of_sale.index">
+            <xpath expr="//link[@id='pos-stylesheet']" position="after">
+                <link rel="stylesheet" href="/pos_receipt_company_logo/static/src/css/pos_ticket.css"/>
+            </xpath>
+        </template>
+            
+        <template id="assets_backend" name="pos_receipt_company_logo assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+               <script type="text/javascript" src="/pos_receipt_company_logo/static/src/js/pos_ticket.js"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
