@@ -1,3 +1,3 @@
-Company Logo for POS Receipt
+Company Logo for Odoo POS Receipt
 ============================
- * Adds the company logo to the Point of Sale receipt
+ * This module will add a company logo to odoo point of sale receipt. 
